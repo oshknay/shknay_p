@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио Шкнай Ольга</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+ <div class="wrapper"> 
+    <header id="header">
+        <div class="header__wrapper"> 
+            <div class="header__nav">
+                <nav class="header__list">
+                    <div>
+                    <a href="#header" class="header__logo "><img class="img-logo" src="image/Ol (1)-modified.png" alt="logo" width="80px"></a>
+                    </div>
+                    <div>
+                    <a href="#intro" class="header__item ">Обо мне</a>
+                    <a href="#form-block" class="header__item ">Контакты</a>
+                   </div>
+                   <div>
+                    <a href="#" class="header__item "> <img class="img-git" src="image/pngwing.com.png" alt="github"  width="60px"> </a>
+                   
+                   </div>
+                </nav>
+            </div> 
+        </div>
+    </header>
+
+ <main class="main"> 
+    <section id="intro">
+        <div class="intro__wrapper">
+            <div class="intro__block">
+                <h1 class="intro__title">Привет, я Оля,<br> начинающий веб-разработчик!</h1>
+                <p class="intro__subtitle">Меня вдохновляет творческое самовыражение, и я всегда открыта для изучения новых возможностей.</p>
+                <a href="#form-block"><button class="intro__btn"> Связаться</button></a>
+            </div>
+
+            <div class="intro__myImg">
+                <img id="my_photo" src="image/my_photo.png" alt=" Фотография Шкнай Ольги" width="300px">
+            </div>
+        </div>
+    </section> 
+
+    <section id="about">
+        <div class="about__wrapper">
+            <div class="about__block">
+               <div class="about__item ">
+                <h2 class="about__title">Обо мне</h2>
+                <p class="about__par"> Меня зовут Шкнай Ольга. <br>15.06.1982 г.р.<br>
+                Я из г.Минска. По образованию я педагог начальных классов и экономист. Работала по двум специальностям.<br> Люблю постоянно изучать что-то новое.<br> У меня трое замечательных девчонок! </p>
+               </div>
+              
+               <div class="about__item">
+                <h2 class="about__title ">Образование</h2>
+                    <ul class="about__list">
+                        <li class="about__li">БГПУ им. М.Танка "Начальное образование"</li>
+                        <li class="about__li">БГЭУ ВШУБ "Экономика и управление на предприятии"</li>
+                        <li class="about__li">Курсы "CanSheCode"</li>
+                    </ul>
+                 </div>
+
+                <div class="about__item">
+                    <h2 class="about__title ">Работа</h2>
+                    <p class="about__par ">В данный момент работаю в ОАО "МТЗ" ведущим инженером по организации и нормированию труда</p>
+               </div>
+
+               <div class="about__item ">
+                <h2 class="about__title ">Интересы</h2>
+                     <p class="about__par"> Мне нравится делать красивые вещи, будь то программное обеспечение или творчество.<br> Люблю заниматься спортом, вышивать брошки, вязать, изучать астрологию и находить закономерности. <br>Если вы думаете, что мы должны вместе создать что-то потрясающее, дайте мне знать!</p>
+               </div>
+
+               <div class="about__item ">
+                <h2 class="about__title">Мои контакты</h2>
+                <div>
+                <p class="about__par"><a class="about__par" href="tel:+375297638602" >Тел. 8 (029) 763-86-02 </a> </p>
+                <p class="about__par"> E-mail: oshknay@mail.ru</p>
+             </div>
+            </div>
+               
+            </div>
+         </div>
+    </section> 
+
+
+<section id="form-block">
+    <div class="form__wrapper">
+          <div class="form__header">
+             <h2 class="form__title ">Хотите узнать больше?</h2>
+             <p class="form__par">Если есть интересный проект, где я могла бы принести пользу, напишите мне и мы поболтаем!</p>
+          </div>
+
+        <form class="form"  action="https://formspree.io/f/xqkoawro" method="post">
+          <imput type="hidden" name="_language" value="ru"></imput>
+         
+                <div class="input-container ">
+                   <label class="form-label">Имя</label>
+                   <input  class="form-input" type="text"  name="name" placeholder=" " />
+                </div>
+                
+                <div class="input-container ">
+                  <label class="form-label">E-mail</label>
+                  <input class="form-input" type="email" name="_replyto" placeholder=" " required=""/>
+                </div>
+
+                <div class="input-container">
+                    <label  class="form-label">Ваше сообщение</label>
+                    <textarea  class="form-input" type="text" name="massage" placeholder=" "> </textarea>
+                  </div>
+                  <div class='btn-container' >
+                    <button class="form-submit" type="submit">Отослать</button>
+                </div>
+        </form>
+    </div>
+</section>
+</main> 
+</div>
+
+<footer class="footer">
+       <p class="footer__par">Давайте вместе сделаем что-то красивое</p>
+</footer>
+</body>
+</html>
